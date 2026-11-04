@@ -1,6 +1,6 @@
 ---
 name: modo
-description: Elige el arnés de desarrollo de la carpeta actual (harness-sdd, harness-ligero o ninguno) escribiendo enabledPlugins en su .claude/settings.json. Úsala cuando el usuario diga "/modo harness-sdd", "en esta carpeta quiero el arnés SDD", "usa el arnés ligero aquí", "quita el arnés" o similar.
+description: Elige el arnés de desarrollo de la carpeta actual (harness-sdd, harness-ligero o ninguno) instalándolo a scope project (queda en enabledPlugins de su .claude/settings.json). Úsala cuando el usuario diga "/modo harness-sdd", "en esta carpeta quiero el arnés SDD", "usa el arnés ligero aquí", "quita el arnés" o similar.
 argument-hint: "harness-sdd | harness-ligero | ninguno"
 ---
 
