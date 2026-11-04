@@ -5,7 +5,8 @@ Catálogo de plugins de Claude Code de PacoTCK. Cada plugin vive en su propio re
 | Plugin | Qué hace | Repo |
 |---|---|---|
 | `jarvis` | Skills `claude-architect` y `eval-builder` con sus wikis | [PacoTCK/Jarvis](https://github.com/PacoTCK/Jarvis) (`brain/`) |
-| `modo` | `/modo pesado \| ligero \| ninguno`: elige el arnés de la carpeta actual | aquí (`plugins/modo/`) |
+| `harness-sdd` | Arnés SDD: ciclo de 7 fases, subagentes, gates y guard | [PacoTCK/data-eng-harness-v2](https://github.com/PacoTCK/data-eng-harness-v2) |
+| `modo` | `/modo harness-sdd \| harness-ligero \| ninguno`: elige el arnés de la carpeta actual | aquí (`plugins/modo/`) |
 
 ## Instalar
 
