@@ -1,0 +1,17 @@
+{
+  "name": "paco-tck-catalog",
+  "description": "Catálogo de PacoTCK: cada pieza vive en su repo y aquí se listan todas",
+  "owner": { "name": "Francisco Luque" },
+  "plugins": [
+    {
+      "name": "jarvis",
+      "source": { "source": "git-subdir", "url": "PacoTCK/Jarvis", "path": "brain" },
+      "description": "Skills claude-architect y eval-builder con sus wikis"
+    },
+    {
+      "name": "modo",
+      "source": "./plugins/modo",
+      "description": "Elige el arnés de la carpeta actual: /modo pesado | ligero | ninguno"
+    }
+  ]
+}
