@@ -5,7 +5,7 @@
   "plugins": [
     {
       "name": "jarvis",
-      "source": { "source": "git-subdir", "url": "PacoTCK/Jarvis", "path": "brain" },
+      "source": { "source": "git-subdir", "url": "https://github.com/PacoTCK/Jarvis.git", "path": "brain" },
       "description": "Skills claude-architect y eval-builder con sus wikis"
     },
     {
