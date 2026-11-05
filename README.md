@@ -6,7 +6,9 @@ Catálogo de plugins de Claude Code de PacoTCK. Cada plugin vive en su propio re
 |---|---|---|
 | `jarvis` | Skills `claude-architect` y `eval-builder` con sus wikis | [PacoTCK/Jarvis](https://github.com/PacoTCK/Jarvis) (`brain/`) |
 | `harness-sdd` | Arnés SDD: ciclo de 7 fases, subagentes, gates y guard | [PacoTCK/data-eng-harness-v2](https://github.com/PacoTCK/data-eng-harness-v2) |
-| `modo` | `/modo harness-sdd \| harness-ligero \| ninguno`: elige el arnés de la carpeta actual | aquí (`plugins/modo/`) |
+| `superpowers` | Modo ligero: brainstorming, plan, subagente por tarea con revisión y TDD | [obra/superpowers](https://github.com/obra/superpowers) (de terceros, MIT) |
+| `andrej-karpathy-skills` | Modo ultraligero: una skill con cuatro pautas de código | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) (de terceros, MIT) |
+| `modo` | `/modo harness-sdd \| superpowers \| andrej-karpathy-skills \| ninguno`: elige el arnés de la carpeta actual | aquí (`plugins/modo/`) |
 
 ## Instalar
 
