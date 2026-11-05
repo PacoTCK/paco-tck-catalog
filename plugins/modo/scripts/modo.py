@@ -10,7 +10,7 @@ import sys
 from pathlib import Path
 
 CATALOGO = "paco-tck-catalog"
-ARNESES = ("harness-sdd", "harness-ligero")  # el modo es el nombre del plugin del catálogo
+ARNESES = ("harness-sdd", "superpowers", "andrej-karpathy-skills")  # pesado, ligero, ultraligero  # el modo es el nombre del plugin del catálogo
 
 modo = sys.argv[1] if len(sys.argv) > 1 else ""
 if modo not in (*ARNESES, "ninguno"):
