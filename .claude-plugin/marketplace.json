@@ -23,6 +23,15 @@
       "description": "Arnés SDD completo: ciclo de 7 fases, subagentes, gates y guard. Se activa por carpeta con /modo harness-sdd"
     },
     {
+      "name": "sdd-companion",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/PacoTCK/data-eng-harness-v2.git",
+        "path": "adapters/claude-code/mods/sdd-companion"
+      },
+      "description": "Mod del arnés SDD: franja con la fase que toca, gasto en la línea de estado, panel /sdd-panel por skill y aviso si un gate se salta harness next. Se instala solo con harness-sdd"
+    },
+    {
       "name": "modo",
       "source": "./plugins/modo",
       "description": "Elige el arnés de la carpeta actual: /modo harness-sdd | harness-ligero | ninguno"
